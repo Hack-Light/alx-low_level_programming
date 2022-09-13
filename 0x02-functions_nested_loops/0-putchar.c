@@ -1,4 +1,4 @@
-#include "light.h"
+#include "main.h"
 
 /**
  *  *  main - Entry point
