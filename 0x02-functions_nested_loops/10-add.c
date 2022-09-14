@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- *  *  times_table - Entry point
+ *  *  add - Entry point
  *   *  Description:'the program's description'
  *    *  @num1: The first integer to be added.
  *     * @num2: The second integer to be added.
