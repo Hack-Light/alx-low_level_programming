@@ -26,7 +26,7 @@ int main(void)
 		if (i <= 49)
 			printf(", ");
 		else
-			print("\n");
+			printf("\n");
 		
 	}
 
