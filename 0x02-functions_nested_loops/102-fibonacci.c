@@ -21,10 +21,15 @@ int main(void)
 		prev2 = current;
 		i++;
 
-		printf("%lu, ", current);
+		printf("%lu", current);
+
+		if (i <= 49)
+			printf(", ");
+		else
+			print("\n");
+		
 	}
 
-	printf("\n");
 	return (0);
 }
 
