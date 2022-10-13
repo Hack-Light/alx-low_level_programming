@@ -10,10 +10,11 @@
 void more_numbers(void)
 {
 	int i = 0;
+	int j;
 
 	while (i < 10)
 	{
-		int j = 0;
+		j = 0;
 
 		while (j <= 14)
 		{
@@ -23,14 +24,12 @@ void more_numbers(void)
 			act = j / 10;
 
 			if (act > 0)
-				_putchar(act + "0");
-			_putchar(rem + "0");
+				_putchar(act + '0');
+			_putchar(rem + '0');
 			j++;
 		}
 
 		_putchar("\n");
 		i++;
 	}
-
-	_putchar("\n");
 }
