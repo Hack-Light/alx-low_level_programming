@@ -14,9 +14,13 @@ int main(void)
 	unsigned long current = 0;
 	unsigned long sum = 0;
 
-	while (i < 4000000)
+	while (1)
 	{
 		current = prev1 + prev2;
+
+		if (current > 4000000)
+			break;
+
 		prev1 = prev2;
 		prev2 = current;
 		i++;
