@@ -10,7 +10,7 @@ int main(void)
 {
 	unsigned long i = 0;
 	unsigned long prev1 = 0;
-	unsigned long prev2 = 0;
+	unsigned long prev2 = 1;
 	unsigned long current = 0;
 	unsigned long sum = 0;
 
