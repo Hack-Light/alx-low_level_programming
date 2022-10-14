@@ -11,7 +11,7 @@ void rev_string(char *s)
 	int num;
 	int len;
 	int count;
-	char ch;
+	char c;
 
 	count = 0;
 	num = 0;
@@ -22,9 +22,9 @@ void rev_string(char *s)
 	len = count;
 	while (num < len / 2)
 	{
-		ch = s[num];
+		c = s[num];
 		s[num] = s[count - 1];
-		s[count - 1] = ch;
+		s[count - 1] = c;
 		num++;
 		count--;
 	}
